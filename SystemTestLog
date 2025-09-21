@@ -1,0 +1,127 @@
+[1;32m2025-09-21 14:25:35.842237 /root/code/TDengine/tests/system-test/2-query/between.py successfully executed[0m
+Python version: 3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:09:02) [GCC 11.2.0]
+Version info: sys.version_info(major=3, minor=13, micro=5, releaselevel='final', serial=0)
+2025-09-21 14:25:30.743474 Procedures for tdengine deployed in iZ6we9m9hdzxe4lyqwxynsZ
+
+2025-09-21 14:25:30.901277 stop all dnodes, asan:0
+
+[1;36m2025-09-21 14:25:31.383164 psim is deployed and configured by /root/code/TDengine/sim/psim/cfg/taos.cfg[0m
+[1;36m2025-09-21 14:25:31.820631 dnode:1 is deployed and configured by /root/code/TDengine/sim/dnode1/cfg/taos.cfg[0m
+2025-09-21 14:25:31.917256 taosd found: /root/code/TDengine/debug/build/bin/taosd
+
+[1;36m2025-09-21 14:25:31.946343 dnode:1 is running with nohup /root/code/TDengine/debug/build/bin/taosd -c /root/code/TDengine/sim/dnode1/cfg > /dev/null 2>&1 &  [0m
+[1;36m2025-09-21 14:25:32.996798 the dnode:1 has been started.[0m
+2025-09-21 14:25:32.996940 Procedures for testing self-deployment
+
+[1;36m2025-09-21 14:25:33.133216 start to excute /root/code/TDengine/tests/system-test/2-query/between.py[0m
+sqllog is :True
+2025-09-21 14:25:33.187469 prepare database:db
+
+[1;36m==========step1:create table[0m
+[1;36m==========step2:insert data[0m
+[1;36m==========step3:query timestamp type[0m
+2025-09-21 14:25:35.486874 sql:select * from db.t1 where ts between now()-1m and now()+10m, elm:10 == expect_elm:10
+
+2025-09-21 14:25:35.505338 sql:select * from db.t1 where ts between -2793600 and 31507199, elm:0 == expect_elm:0
+
+2025-09-21 14:25:35.510738 sql:select * from db.t1 where ts between 1609430400000 and 4765104000000, elm:11 == expect_elm:11
+
+[1;36m==========step4:query int type[0m
+2025-09-21 14:25:35.518395 sql:select * from db.t1 where c1 between 32767 and 32776, elm:10 == expect_elm:10
+
+2025-09-21 14:25:35.523648 sql:select * from db.t1 where c1 between 32766.9 and 32776.1, elm:10 == expect_elm:10
+
+2025-09-21 14:25:35.530027 sql:select * from db.t1 where c1 between 32776 and 32767, elm:0 == expect_elm:0
+
+2025-09-21 14:25:35.538038 sql:select * from db.t1 where c1 between 'a' and 'e', elm:0 == expect_elm:0
+
+2025-09-21 14:25:35.545915 sql:select * from db.t1 where c1 not between 100 and 106, elm:11 == expect_elm:11
+
+2025-09-21 14:25:35.554087 sql:select * from db.t1 where c1 between 2147483646 and 2147483649, elm:1 == expect_elm:1
+
+2025-09-21 14:25:35.562800 sql:select * from db.t2 where c1 between -2147483648 and -2147483647, elm:1 == expect_elm:1
+
+[1;36m==========step5:query float type[0m
+2025-09-21 14:25:35.567952 sql:select * from db.t1 where c2 between 20.0 and 21.0, elm:10 == expect_elm:10
+
+2025-09-21 14:25:35.572469 sql:select * from db.t1 where c2 between -3.4e+38 and 3.4e+38, elm:11 == expect_elm:11
+
+2025-09-21 14:25:35.577766 sql:select * from db.t1 where c2 between 21.0 and 20.0, elm:0 == expect_elm:0
+
+2025-09-21 14:25:35.582223 sql:select * from db.t1 where c2 between 'DC3' and 'SYN', elm:0 == expect_elm:0
+
+2025-09-21 14:25:35.587405 sql:select * from db.t1 where c2 not between 0.1 and 0.2, elm:11 == expect_elm:11
+
+[1;36m==========step6:query bigint type[0m
+2025-09-21 14:25:35.615275 sql:select * from db.t1 where c3 between 2147483648 and 2147483658, elm:10 == expect_elm:10
+
+2025-09-21 14:25:35.623173 sql:select * from db.t1 where c3 between -9223372036854775808 and 9223372036854775808, elm:11 == expect_elm:11
+
+2025-09-21 14:25:35.633669 sql:select * from db.t1 where c3 between 2147483658 and 2147483648, elm:0 == expect_elm:0
+
+2025-09-21 14:25:35.638350 sql:select * from db.t1 where c3 between 'a' and 'z', elm:0 == expect_elm:0
+
+2025-09-21 14:25:35.649521 sql:select * from db.t1 where c3 between 9223372036854775806 and 9223372036854775807, elm:1 == expect_elm:1
+
+[1;36m==========step7:query double type[0m
+2025-09-21 14:25:35.660193 sql:select * from db.t1 where c4 between 3.4e+38 and 3.4e+38, elm:10 == expect_elm:10
+
+2025-09-21 14:25:35.674025 sql:select * from db.t1 where c4 between 'a' and 'z', elm:0 == expect_elm:0
+
+2025-09-21 14:25:35.686455 sql:select * from db.t1 where c4 between 1.7e+308 and 1.7e+308, elm:1 == expect_elm:1
+
+[1;36m==========step8:query smallint type[0m
+2025-09-21 14:25:35.698556 sql:select * from db.t1 where c5 between 127 and 136, elm:10 == expect_elm:10
+
+2025-09-21 14:25:35.702857 sql:select * from db.t1 where c5 between 126.9 and 135.9, elm:9 == expect_elm:9
+
+2025-09-21 14:25:35.707228 sql:select * from db.t1 where c5 between 136 and 127, elm:0 == expect_elm:0
+
+2025-09-21 14:25:35.712456 sql:select * from db.t1 where c5 between '~' and '^', elm:0 == expect_elm:0
+
+2025-09-21 14:25:35.722430 sql:select * from db.t1 where c5 between 32767 and 32768, elm:1 == expect_elm:1
+
+2025-09-21 14:25:35.726820 sql:select * from db.t2 where c5 between -32768 and -32767, elm:1 == expect_elm:1
+
+[1;36m==========step9:query tinyint type[0m
+2025-09-21 14:25:35.738570 sql:select * from db.t1 where c6 between 0 and 9, elm:10 == expect_elm:10
+
+2025-09-21 14:25:35.744794 sql:select * from db.t1 where c6 between -1.1 and 8.9, elm:9 == expect_elm:9
+
+2025-09-21 14:25:35.749127 sql:select * from db.t1 where c6 between 9 and 0, elm:0 == expect_elm:0
+
+2025-09-21 14:25:35.753607 sql:select * from db.t1 where c6 between 'NUL' and 'HT', elm:1 == expect_elm:1
+
+2025-09-21 14:25:35.762822 sql:select * from db.t1 where c6 between 127 and 128, elm:1 == expect_elm:1
+
+2025-09-21 14:25:35.767405 sql:select * from db.t2 where c6 between -128 and -127, elm:1 == expect_elm:1
+
+[1;36m==========step10:invalid query type[0m
+2025-09-21 14:25:35.780994 sql:select * from db.stb1 where location between 'beijing' and 'shanghai', elm:23 == expect_elm:23
+
+2025-09-21 14:25:35.792388 sql:select * from db.stb1 where isused between 0 and 1, elm:23 == expect_elm:23
+
+2025-09-21 14:25:35.803464 sql:select * from db.stb1 where isused between -1 and 0, elm:12 == expect_elm:12
+
+2025-09-21 14:25:35.816873 sql:select * from db.stb1 where isused between false and true, elm:23 == expect_elm:23
+
+2025-09-21 14:25:35.827910 sql:select * from db.stb1 where family between '拖拉机' and '自行车', elm:0 == expect_elm:0
+
+[1;36m==========step11:query HEX/OCT/BIN type[0m
+2025-09-21 14:25:35.830664 err:[0x2600]: syntax error near "0x7f and 0x80"
+
+2025-09-21 14:25:35.832640 err:[0x2600]: syntax error near "0b1 and 0b11111"
+
+2025-09-21 14:25:35.834500 err:[0x2600]: syntax error near "0b1 and 0x80"
+
+2025-09-21 14:25:35.836261 err:[0x2600]: syntax error near "0b1"
+
+2025-09-21 14:25:35.838172 err:[0x2600]: syntax error near "0x1"
+
+2025-09-21 14:25:35.842027 sql:select * from db.t1 where c6 between 01 and 0200, elm:10 == expect_elm:10
+
+2025-09-21 14:25:35.842758 stop all dnodes, asan:0
+
+[1;36m2025-09-21 14:25:39.261627 dnode:1 is stopped by kill -INT[0m
+2025-09-21 14:25:39.332412 stop all td process finished
+

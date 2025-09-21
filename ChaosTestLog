@@ -1,0 +1,6 @@
+ =======   core path is |/usr/lib/systemd ======== 
+Traceback (most recent call last):
+  File "/root/code/TDengine/tests/pytest/auto_crash_gen.py", line 70, in <module>
+    os.mkdir(core_path)
+    ~~~~~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '|/usr/lib/systemd'

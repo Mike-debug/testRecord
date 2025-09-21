@@ -1,0 +1,1446 @@
+PWD: /root/code/TDengine/debug
+178445
+Test project /root/code/TDengine/debug
+      Start 25: decompressTest
+      Start 45: idxFstTest
+      Start 47: schedulerTest
+      Start 33: tdbPageFlushTest
+      Start  5: osTests
+      Start 49: dataSinkTest
+      Start 64: stbTest
+      Start 55: smlTest
+ 1/71 Test #49: dataSinkTest .....................   Passed   16.42 sec
+      Start 52: tss_test
+ 2/71 Test #55: smlTest ..........................   Passed   16.94 sec
+      Start 40: idxJsonUT
+ 3/71 Test #52: tss_test .........................   Passed   10.13 sec
+      Start 42: idxTest
+ 4/71 Test #33: tdbPageFlushTest .................   Passed   27.93 sec
+      Start 63: smaTest
+ 5/71 Test #40: idxJsonUT ........................   Passed   12.03 sec
+      Start 50: plannerTest
+ 6/71 Test #50: plannerTest ......................   Passed    4.79 sec
+      Start 34: wal_test
+ 7/71 Test #42: idxTest ..........................   Passed    8.80 sec
+      Start 46: parserTest
+ 8/71 Test  #5: osTests ..........................   Passed   35.52 sec
+      Start 62: showTest
+ 9/71 Test #63: smaTest ..........................   Passed    8.42 sec
+      Start 57: acctTest
+10/71 Test #64: stbTest ..........................   Passed   37.24 sec
+      Start 65: topicTest
+11/71 Test #62: showTest .........................   Passed    4.54 sec
+      Start 59: funcTest
+12/71 Test #57: acctTest .........................   Passed    4.59 sec
+      Start 54: clientBITest
+13/71 Test #34: wal_test .........................   Passed    7.48 sec
+      Start 67: dqnodeTest
+14/71 Test #46: parserTest .......................   Passed    6.56 sec
+      Start 60: profileTest
+15/71 Test #65: topicTest ........................   Passed    5.06 sec
+      Start  8: osSemaphoreTests
+16/71 Test #54: clientBITest .....................   Passed    3.13 sec
+      Start 24: logTest
+17/71 Test #59: funcTest .........................   Passed    4.97 sec
+      Start  6: osThreadTests
+18/71 Test  #8: osSemaphoreTests .................   Passed    3.97 sec
+      Start  9: osSleepTests
+19/71 Test #67: dqnodeTest .......................   Passed    5.14 sec
+      Start 21: tbaseCodecTest
+20/71 Test #24: logTest ..........................   Passed    2.72 sec
+      Start 20: talgoTest
+21/71 Test #60: profileTest ......................   Passed    5.10 sec
+      Start 51: geomTest
+22/71 Test  #6: osThreadTests ....................   Passed    2.32 sec
+      Start 23: regexTest
+23/71 Test #51: geomTest .........................   Passed    0.69 sec
+      Start 28: memPoolTest
+24/71 Test  #9: osSleepTests .....................   Passed    2.05 sec
+      Start 66: tq_test
+25/71 Test #66: tq_test ..........................   Passed    0.24 sec
+      Start 43: idxUtilUT
+26/71 Test #23: regexTest ........................   Passed    1.54 sec
+      Start 29: commonTest
+27/71 Test #28: memPoolTest ......................   Passed    1.34 sec
+      Start 39: scalarTest
+28/71 Test #21: tbaseCodecTest ...................   Passed    2.64 sec
+      Start 56: userOperTest
+29/71 Test #20: talgoTest ........................   Passed    2.42 sec
+      Start 68: benchmarkTest
+30/71 Test #56: userOperTest .....................   Passed    0.23 sec
+      Start 71: simTests
+31/71 Test #39: scalarTest .......................   Passed    0.52 sec
+      Start 38: metricsTest
+32/71 Test #43: idxUtilUT ........................   Passed    1.04 sec
+      Start 53: decimalTest
+33/71 Test #71: simTests .........................   Passed    0.38 sec
+      Start 35: monitorTest
+34/71 Test #53: decimalTest ......................   Passed    0.12 sec
+      Start 12: osTimeTests
+35/71 Test #12: osTimeTests ......................   Passed    0.06 sec
+      Start 36: tfs_test
+36/71 Test #29: commonTest .......................   Passed    0.97 sec
+      Start 61: sdbTest
+37/71 Test #35: monitorTest ......................   Passed    0.15 sec
+      Start 11: osSystemTests
+38/71 Test #38: metricsTest ......................   Passed    0.34 sec
+      Start 44: idxFstUT
+39/71 Test #11: osSystemTests ....................   Passed    0.06 sec
+      Start  4: osEnvTests
+40/71 Test #36: tfs_test .........................   Passed    0.16 sec
+      Start 13: heapTest
+41/71 Test  #4: osEnvTests .......................   Passed    0.04 sec
+      Start 14: arrayTest
+42/71 Test #61: sdbTest ..........................   Passed    0.14 sec
+      Start 10: osStringTests
+43/71 Test #13: heapTest .........................   Passed    0.07 sec
+      Start 26: utilTests
+44/71 Test #14: arrayTest ........................   Passed    0.06 sec
+      Start  2: osDirTests
+45/71 Test #10: osStringTests ....................   Passed    0.09 sec
+      Start  7: osMathTests
+46/71 Test  #2: osDirTests .......................   Passed    0.07 sec
+      Start 17: taosbsearchTest
+47/71 Test #44: idxFstUT .........................   Passed    0.26 sec
+      Start 31: tmsgTest
+48/71 Test #26: utilTests ........................   Passed    0.18 sec
+      Start 58: arbgroupTest
+49/71 Test  #7: osMathTests ......................   Passed    0.14 sec
+      Start 16: bloomFilterTest
+50/71 Test #17: taosbsearchTest ..................   Passed    0.13 sec
+      Start 18: rbtreeTest
+51/71 Test #31: tmsgTest .........................   Passed    0.10 sec
+      Start 22: bufferTest
+52/71 Test #58: arbgroupTest .....................   Passed    0.07 sec
+      Start 48: streamRunnerTest
+53/71 Test #16: bloomFilterTest ..................   Passed    0.08 sec
+      Start 15: cfgTest
+54/71 Test #18: rbtreeTest .......................   Passed    0.09 sec
+      Start 19: pageBufferTest
+55/71 Test #22: bufferTest .......................   Passed    0.09 sec
+      Start  3: osFileTests
+56/71 Test #48: streamRunnerTest .................   Passed    0.10 sec
+      Start 69: taosdumpTest
+57/71 Test #15: cfgTest ..........................   Passed    0.09 sec
+      Start 41: idxFstUtilUT
+58/71 Test #19: pageBufferTest ...................   Passed    0.08 sec
+      Start 70: shellTest
+59/71 Test  #3: osFileTests ......................   Passed    0.08 sec
+      Start 27: terrorTest
+60/71 Test #69: taosdumpTest .....................   Passed    0.08 sec
+      Start 30: dataformatTest
+61/71 Test #41: idxFstUtilUT .....................   Passed    0.07 sec
+      Start  1: osAtomicTests
+62/71 Test #70: shellTest ........................   Passed    0.07 sec
+      Start 37: nodesTest
+63/71 Test #27: terrorTest .......................   Passed    0.08 sec
+      Start 32: tdbUtilTest
+64/71 Test #30: dataformatTest ...................   Passed    0.07 sec
+65/71 Test  #1: osAtomicTests ....................   Passed    0.06 sec
+66/71 Test #37: nodesTest ........................   Passed    0.04 sec
+67/71 Test #32: tdbUtilTest ......................   Passed    0.02 sec
+68/71 Test #68: benchmarkTest ....................   Passed    1.79 sec
+69/71 Test #47: schedulerTest ....................   Passed   52.27 sec
+70/71 Test #45: idxFstTest .......................   Passed  105.66 sec
+71/71 Test #25: decompressTest ...................   Passed  178.95 sec
+
+100% tests passed, 0 tests failed out of 71
+
+Total Test time (real) = 178.96 sec
+the runing threads is:1[==========] Running 31 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 31 tests from clientCase
+[ RUN      ] clientCase.driverInit_Test
+[       OK ] clientCase.driverInit_Test (0 ms)
+[ RUN      ] clientCase.connect_Test
+error in drop db, reason:Database not exist
+[       OK ] clientCase.connect_Test (28 ms)
+[ RUN      ] clientCase.create_user_Test
+failed to create user, reason:Password too short or empty
+[       OK ] clientCase.create_user_Test (1 ms)
+[ RUN      ] clientCase.create_account_Test
+failed to create user, reason:This statement is no longer supported
+[       OK ] clientCase.create_account_Test (1 ms)
+[ RUN      ] clientCase.drop_account_Test
+failed to create user, reason:syntax error near "account aabc"
+[       OK ] clientCase.drop_account_Test (1 ms)
+[ RUN      ] clientCase.show_user_Test
+root 1 1 1 1 1758431847597 127.0.0.1/32,::1/128
+[       OK ] clientCase.show_user_Test (5 ms)
+[ RUN      ] clientCase.drop_user_Test
+failed to create user, reason:Invalid user
+[       OK ] clientCase.drop_user_Test (3 ms)
+[ RUN      ] clientCase.show_db_Test
+information_schema
+performance_schema
+bi_test
+[       OK ] clientCase.show_db_Test (7 ms)
+[ RUN      ] clientCase.create_db_Test
+error in create db, reason:Database already exists
+[       OK ] clientCase.create_db_Test (214 ms)
+[ RUN      ] clientCase.use_db_test
+[       OK ] clientCase.use_db_test (1 ms)
+[ RUN      ] clientCase.create_stable_Test
+[       OK ] clientCase.create_stable_Test (14 ms)
+[ RUN      ] clientCase.create_table_Test
+[       OK ] clientCase.create_table_Test (4 ms)
+[ RUN      ] clientCase.create_ctable_Test
+failed to create child table tm0, reason:syntax error near '2021-10-10 1:1:1' (invalid int data)
+[       OK ] clientCase.create_ctable_Test (1 ms)
+[ RUN      ] clientCase.show_stable_Test
+st1
+[       OK ] clientCase.show_stable_Test (4 ms)
+[ RUN      ] clientCase.show_vgroup_Test
+6 abc1 0 1 leader** 0/0 NULL NULL NULL NULL NULL NULL NULL NULL NULL 0 0 0 0
+7 abc1 0 1 leader** 0/0 NULL NULL NULL NULL NULL NULL NULL NULL NULL 0 0 0 0
+[       OK ] clientCase.show_vgroup_Test (6 ms)
+[ RUN      ] clientCase.create_multiple_tables
+[       OK ] clientCase.create_multiple_tables (295 ms)
+[ RUN      ] clientCase.show_table_Test
+failed to show tables, reason:database not specified
+1: tm1
+2: t_x_1
+3: t_x_3
+4: t_x_4
+5: t_x_5
+6: t_x_7
+7: t_x_8
+8: t_x_9
+9: t_x_10
+10: t_x_11
+11: t_x_13
+12: t_x_14
+13: t_x_15
+14: t_x_16
+15: t_x_17
+16: t_x_22
+17: t_x_23
+18: t_x_27
+19: t_x_28
+20: t_x_29
+21: t_x_32
+22: t_x_33
+23: t_x_35
+24: t_x_42
+25: t_x_44
+26: t_x_46
+27: t_x_47
+28: t_x_48
+29: t_x_53
+30: t_x_58
+31: t_x_59
+32: t_x_62
+33: t_x_63
+34: t_x_67
+35: t_x_69
+36: t_x_71
+37: t_x_72
+38: t_x_74
+39: t_x_75
+40: t_x_76
+41: t_x_81
+42: t_x_86
+43: t_x_87
+44: t_x_91
+45: t_x_95
+46: t_x_96
+47: t_x_98
+48: t_x_100
+49: t_x_101
+50: t_x_109
+51: t_x_112
+52: t_x_114
+53: t_x_115
+54: t_x_118
+55: t_x_120
+56: t_x_122
+57: t_x_124
+58: t_x_125
+59: t_x_129
+60: t_x_132
+61: t_x_134
+62: t_x_140
+63: t_x_143
+64: t_x_145
+65: t_x_147
+66: t_x_148
+67: t_x_149
+68: t_x_150
+69: t_x_152
+70: t_x_154
+71: t_x_155
+72: t_x_157
+73: t_x_160
+74: t_x_163
+75: t_x_164
+76: t_x_165
+77: t_x_167
+78: t_x_169
+79: t_x_170
+80: t_x_174
+81: t_x_178
+82: t_x_179
+83: t_x_180
+84: t_x_181
+85: t_x_183
+86: t_x_184
+87: t_x_185
+88: t_x_186
+89: t_x_188
+90: t_x_189
+91: t_x_190
+92: t_x_191
+93: t_x_194
+94: t_x_195
+95: t_x_197
+96: t_x_200
+97: t_x_201
+98: t_x_203
+99: t_x_204
+100: t_x_205
+101: t_x_207
+102: t_x_209
+103: t_x_210
+104: t_x_211
+105: t_x_212
+106: t_x_214
+107: t_x_216
+108: t_x_218
+109: t_x_220
+110: t_x_221
+111: t_x_222
+112: t_x_224
+113: t_x_228
+114: t_x_229
+115: t_x_230
+116: t_x_231
+117: t_x_232
+118: t_x_234
+119: t_x_236
+120: t_x_238
+121: t_x_239
+122: t_x_240
+123: t_x_241
+124: t_x_242
+125: t_x_244
+126: t_x_245
+127: t_x_246
+128: t_x_249
+129: t_x_250
+130: t_x_251
+131: t_x_253
+132: t_x_255
+133: t_x_256
+134: t_x_257
+135: t_x_260
+136: t_x_262
+137: t_x_268
+138: t_x_269
+139: t_x_270
+140: t_x_271
+141: t_x_272
+142: t_x_274
+143: t_x_276
+144: t_x_277
+145: t_x_278
+146: t_x_279
+147: t_x_280
+148: t_x_282
+149: t_x_283
+150: t_x_284
+151: t_x_285
+152: t_x_286
+153: t_x_289
+154: t_x_290
+155: t_x_291
+156: t_x_295
+157: t_x_298
+158: t_x_299
+159: t_x_300
+160: t_x_301
+161: t_x_304
+162: t_x_305
+163: t_x_311
+164: t_x_314
+165: t_x_320
+166: t_x_325
+167: t_x_326
+168: t_x_327
+169: t_x_330
+170: t_x_331
+171: t_x_332
+172: t_x_336
+173: t_x_337
+174: t_x_341
+175: t_x_344
+176: t_x_346
+177: t_x_348
+178: t_x_350
+179: t_x_351
+180: t_x_353
+181: t_x_354
+182: t_x_356
+183: t_x_357
+184: t_x_359
+185: t_x_361
+186: t_x_364
+187: t_x_365
+188: t_x_366
+189: t_x_368
+190: t_x_370
+191: t_x_371
+192: t_x_374
+193: t_x_375
+194: t_x_376
+195: t_x_378
+196: t_x_379
+197: t_x_380
+198: t_x_381
+199: t_x_384
+200: t_x_387
+201: t_x_388
+202: t_x_389
+203: t_x_390
+204: t_x_391
+205: t_x_393
+206: t_x_394
+207: t_x_397
+208: t_x_398
+209: t_x_399
+210: t_x_403
+211: t_x_404
+212: t_x_405
+213: t_x_409
+214: t_x_410
+215: t_x_412
+216: t_x_414
+217: t_x_417
+218: t_x_419
+219: t_x_421
+220: t_x_423
+221: t_x_425
+222: t_x_426
+223: t_x_429
+224: t_x_430
+225: t_x_431
+226: t_x_432
+227: t_x_433
+228: t_x_434
+229: t_x_441
+230: t_x_442
+231: t_x_443
+232: t_x_445
+233: t_x_446
+234: t_x_447
+235: t_x_450
+236: t_x_451
+237: t_x_452
+238: t_x_455
+239: t_x_457
+240: t_x_461
+241: t_x_462
+242: t_x_463
+243: t_x_466
+244: t_x_467
+245: t_x_468
+246: t_x_469
+247: t_x_470
+248: t_x_471
+249: t_x_473
+250: t_x_474
+251: t_x_475
+252: t_x_476
+253: t_x_479
+254: t_x_480
+255: t_x_484
+256: t_x_485
+257: t_x_486
+258: t_x_487
+259: t_x_490
+260: t_x_493
+261: t_x_498
+262: t_x_499
+263: tm0
+264: t_2
+265: t_3
+266: t_x_0
+267: t_x_2
+268: t_x_6
+269: t_x_12
+270: t_x_18
+271: t_x_19
+272: t_x_20
+273: t_x_21
+274: t_x_24
+275: t_x_25
+276: t_x_26
+277: t_x_30
+278: t_x_31
+279: t_x_34
+280: t_x_36
+281: t_x_37
+282: t_x_38
+283: t_x_39
+284: t_x_40
+285: t_x_41
+286: t_x_43
+287: t_x_45
+288: t_x_49
+289: t_x_50
+290: t_x_51
+291: t_x_52
+292: t_x_54
+293: t_x_55
+294: t_x_56
+295: t_x_57
+296: t_x_60
+297: t_x_61
+298: t_x_64
+299: t_x_65
+300: t_x_66
+301: t_x_68
+302: t_x_70
+303: t_x_73
+304: t_x_77
+305: t_x_78
+306: t_x_79
+307: t_x_80
+308: t_x_82
+309: t_x_83
+310: t_x_84
+311: t_x_85
+312: t_x_88
+313: t_x_89
+314: t_x_90
+315: t_x_92
+316: t_x_93
+317: t_x_94
+318: t_x_97
+319: t_x_99
+320: t_x_102
+321: t_x_103
+322: t_x_104
+323: t_x_105
+324: t_x_106
+325: t_x_107
+326: t_x_108
+327: t_x_110
+328: t_x_111
+329: t_x_113
+330: t_x_116
+331: t_x_117
+332: t_x_119
+333: t_x_121
+334: t_x_123
+335: t_x_126
+336: t_x_127
+337: t_x_128
+338: t_x_130
+339: t_x_131
+340: t_x_133
+341: t_x_135
+342: t_x_136
+343: t_x_137
+344: t_x_138
+345: t_x_139
+346: t_x_141
+347: t_x_142
+348: t_x_144
+349: t_x_146
+350: t_x_151
+351: t_x_153
+352: t_x_156
+353: t_x_158
+354: t_x_159
+355: t_x_161
+356: t_x_162
+357: t_x_166
+358: t_x_168
+359: t_x_171
+360: t_x_172
+361: t_x_173
+362: t_x_175
+363: t_x_176
+364: t_x_177
+365: t_x_182
+366: t_x_187
+367: t_x_192
+368: t_x_193
+369: t_x_196
+370: t_x_198
+371: t_x_199
+372: t_x_202
+373: t_x_206
+374: t_x_208
+375: t_x_213
+376: t_x_215
+377: t_x_217
+378: t_x_219
+379: t_x_223
+380: t_x_225
+381: t_x_226
+382: t_x_227
+383: t_x_233
+384: t_x_235
+385: t_x_237
+386: t_x_243
+387: t_x_247
+388: t_x_248
+389: t_x_252
+390: t_x_254
+391: t_x_258
+392: t_x_259
+393: t_x_261
+394: t_x_263
+395: t_x_264
+396: t_x_265
+397: t_x_266
+398: t_x_267
+399: t_x_273
+400: t_x_275
+401: t_x_281
+402: t_x_287
+403: t_x_288
+404: t_x_292
+405: t_x_293
+406: t_x_294
+407: t_x_296
+408: t_x_297
+409: t_x_302
+410: t_x_303
+411: t_x_306
+412: t_x_307
+413: t_x_308
+414: t_x_309
+415: t_x_310
+416: t_x_312
+417: t_x_313
+418: t_x_315
+419: t_x_316
+420: t_x_317
+421: t_x_318
+422: t_x_319
+423: t_x_321
+424: t_x_322
+425: t_x_323
+426: t_x_324
+427: t_x_328
+428: t_x_329
+429: t_x_333
+430: t_x_334
+431: t_x_335
+432: t_x_338
+433: t_x_339
+434: t_x_340
+435: t_x_342
+436: t_x_343
+437: t_x_345
+438: t_x_347
+439: t_x_349
+440: t_x_352
+441: t_x_355
+442: t_x_358
+443: t_x_360
+444: t_x_362
+445: t_x_363
+446: t_x_367
+447: t_x_369
+448: t_x_372
+449: t_x_373
+450: t_x_377
+451: t_x_382
+452: t_x_383
+453: t_x_385
+454: t_x_386
+455: t_x_392
+456: t_x_395
+457: t_x_396
+458: t_x_400
+459: t_x_401
+460: t_x_402
+461: t_x_406
+462: t_x_407
+463: t_x_408
+464: t_x_411
+465: t_x_413
+466: t_x_415
+467: t_x_416
+468: t_x_418
+469: t_x_420
+470: t_x_422
+471: t_x_424
+472: t_x_427
+473: t_x_428
+474: t_x_435
+475: t_x_436
+476: t_x_437
+477: t_x_438
+478: t_x_439
+479: t_x_440
+480: t_x_444
+481: t_x_448
+482: t_x_449
+483: t_x_453
+484: t_x_454
+485: t_x_456
+486: t_x_458
+487: t_x_459
+488: t_x_460
+489: t_x_464
+490: t_x_465
+491: t_x_472
+492: t_x_477
+493: t_x_478
+494: t_x_481
+495: t_x_482
+496: t_x_483
+497: t_x_488
+498: t_x_489
+499: t_x_491
+500: t_x_492
+501: t_x_494
+502: t_x_495
+503: t_x_496
+504: t_x_497
+[       OK ] clientCase.show_table_Test (8 ms)
+[ RUN      ] clientCase.generated_request_id_test
+[       OK ] clientCase.generated_request_id_test (24 ms)
+[ RUN      ] clientCase.insert_test
+[       OK ] clientCase.insert_test (4 ms)
+[ RUN      ] clientCase.projection_query_tables
+[       OK ] clientCase.projection_query_tables (0 ms)
+[ RUN      ] clientCase.tsbs_perf_test
+failed to connect to db, reason:Unable to establish connection[       OK ] clientCase.tsbs_perf_test (25093 ms)
+[ RUN      ] clientCase.projection_query_stables
+[       OK ] clientCase.projection_query_stables (1 ms)
+[ RUN      ] clientCase.agg_query_tables
+failed to insert into table, reason:Table does not exist
+failed to insert into table, reason:Table does not exist
+failed to insert into table, reason:Table does not exist
+failed to insert into table, reason:Table does not exist
+failed to insert into table, reason:Table does not exist
+[       OK ] clientCase.agg_query_tables (4 ms)
+[ RUN      ] clientCase.async_api_test
+failed, reason:Table does not exist
+failed to execute, reason:Table does not exist
+[       OK ] clientCase.async_api_test (8 ms)
+[ RUN      ] clientCase.update_test
+[       OK ] clientCase.update_test (6 ms)
+[ RUN      ] clientCase.sub_db_test
+0 msg consumed, include 0 rows
+[       OK ] clientCase.sub_db_test (4 ms)
+[ RUN      ] clientCase.tmq_commit
+0 msg consumed, include 0 rows
+error occurs:Topic does not belong to this consumer
+[       OK ] clientCase.tmq_commit (1 ms)
+[ RUN      ] clientCase.td_25129
+0 msg consumed, include 0 rows
+error occurs:Topic does not belong to this consumer
+[       OK ] clientCase.td_25129 (3 ms)
+[ RUN      ] clientCase.sub_tb_test
+0 msg consumed, include 0 rows
+error occurs:Topic does not belong to this consumer
+[       OK ] clientCase.sub_tb_test (2 ms)
+[ RUN      ] clientCase.sub_tb_mt_test
+0 msg consumed, include 0 rows
+[       OK ] clientCase.sub_tb_mt_test (1 ms)
+[ RUN      ] clientCase.timezone_Test
+[       OK ] clientCase.timezone_Test (218 ms)
+[----------] 31 tests from clientCase (25977 ms total)
+
+[----------] Global test environment tear-down
+[==========] 31 tests from 1 test suite ran. (25977 ms total)
+[  PASSED  ] 31 tests.
+[==========] Running 12 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from connectionCase
+[ RUN      ] connectionCase.setConnectionOption_Test
+check_sql_result sql:select timezone(),result:UTC (UTC, +0000)
+check_sql_result sql:select timezone(),result:Asia/Shanghai (CST, +0800)
+check_sql_result sql:select timezone(),result:UTC (UTC, +0000)
+check_sql_result sql:select timezone(),result:Asia/Kolkata (IST, +0530)
+check_sql_result sql:select timezone(),result:adbc (UTC, +0000)
+check_sql_result_integer sql:select count(*) from performance_schema.perf_connections where user_app = 'aaaaaaaaaaaaaaaaaaaaaab',result:1
+check_sql_result_integer sql:select count(*) from performance_schema.perf_connections where user_ip = '192.168.0.2',result:1
+check_sql_result_integer sql:select count(*) from performance_schema.perf_connections where user_app = 'user',result:1
+check_sql_result_integer sql:select count(*) from performance_schema.perf_connections where user_ip = '192.168.1.2',result:1
+check_sql_result sql:select timezone(),result:Asia/Shanghai (CST, +0800)
+[       OK ] connectionCase.setConnectionOption_Test (6110 ms)
+[----------] 1 test from connectionCase (6110 ms total)
+
+[----------] 2 tests from charsetCase
+[ RUN      ] charsetCase.charset_Test
+execQueryFail: create table db1.ctb1 using db1.stb tags('2023-09-16 17:00:00+05:00', 'èŠ¬', 1)
+execQueryFail: insert into db1.ctb1 values(1732178775133, 'ä¸­å›½', 1)
+check_sql_result sql:select t2 from db1.ctb1,result:·Ò
+check_sql_result sql:select t2 from db1.ctb1,result:èŠ¬
+check_sql_result sql:select c1 from db1.ctb1,result:ÖÐ¹ú
+check_sql_result sql:select c1 from db1.ctb1,result:ä¸­å›½
+execQueryFail: select concat(c1, '·Ò') from db1.ctb1
+check_sql_result sql:select concat(c1, 'èŠ¬') from db1.ctb1,result:ÖÐ¹ú·Ò
+check_sql_result sql:select trim(LEADING c1 from 'ÖÐ¹ú·Ò') from db1.ctb1,result:ÖÐ¹ú·Ò
+check_sql_result sql:select trim(LEADING c1 from 'ä¸­å›½èŠ¬') from db1.ctb1,result:èŠ¬
+check_sql_result sql:select char(c1) from db1.ctb1,result:
+check_sql_result_integer sql:select ascii(c1) from db1.ctb1,result:228
+check_sql_result_integer sql:select ascii(c1) from db1.ctb1,result:228
+check_sql_result_integer sql:select LENGTH(c1) from db1.ctb1,result:8
+check_sql_result_integer sql:select LENGTH(c1) from db1.ctb1,result:8
+check_sql_result_integer sql:select CHAR_LENGTH(c1) from db1.ctb1,result:2
+check_sql_result_integer sql:select CHAR_LENGTH(c1) from db1.ctb1,result:2
+check_sql_result_integer sql:select position(c1 in 'ÖÐ¹ú·Ò') from db1.ctb1,result:0
+check_sql_result_integer sql:select position('å›½' in c1) from db1.ctb1,result:2
+execQueryFail: select replace(c1, 'ÖÐ¹ú', 'a') from db1.ctb1
+check_sql_result sql:select replace(c1, 'ä¸­å›½', 'a') from db1.ctb1,result:a
+check_sql_result sql:select repeat(c1, 2) from db1.ctb1,result:ÖÐ¹úÖÐ¹ú
+check_sql_result sql:select cast(c1 as binary(32)) from db1.ctb1,result:ä¸­å›½
+check_sql_result sql:select substr(c1,2,1) from db1.ctb1,result:å›½
+check_sql_result sql:select SUBSTRING_INDEX(c1,'å›½',1) from db1.ctb1,result:ÖÐ
+check_sql_result sql:select c1 from db1.ctb1 where ts = 1732178775134,result:ä¸­å›½
+check_sql_result sql:select t1 from db1.jsta1,result:{"k":"·Ò"}
+check_sql_result sql:select t2 from db1.ctb1 where ts = 1732178775134,result:èŠ¬
+check_sql_result sql:select c1 from db1.ctb1 where ts = 1732178775134,result:ä¸­å›½
+[       OK ] charsetCase.charset_Test (279 ms)
+[ RUN      ] charsetCase.alter_charset_Test
+execQueryFail: alter dnode 1 'charset gbk'
+execQueryFail: local 'charset gbk'
+[       OK ] charsetCase.alter_charset_Test (1 ms)
+[----------] 2 tests from charsetCase (280 ms total)
+
+[----------] 9 tests from timezoneCase
+[ RUN      ] timezoneCase.set_timezone_Test
+checkRows sql:select * from db1.t1 where ts == '2023-09-16 17:00:00',rows:1
+checkRows sql:select * from db1.t1 where ts == '2023-09-16 01:00:00',rows:1
+checkRows sql:select * from db1.t1 where ts == '2023-09-16 09:00:00',rows:1
+checkRows sql:select * from db1.t1 where ts == '2023-09-17 01:00:01',rows:1
+checkRows sql:select * from db1.t1 where ts == '2023-09-16 17:00:00',rows:1
+checkRows sql:select * from db1.t1 where ts == '2023-09-16 01:00:00',rows:1
+checkRows sql:select * from db1.t1 where ts == '2023-09-16 09:00:00',rows:1
+checkRows sql:select * from db1.t1 where ts == '2023-09-17 01:00:01',rows:1
+[       OK ] timezoneCase.set_timezone_Test (741 ms)
+[ RUN      ] timezoneCase.alter_timezone_Test
+execQueryFail: alter dnode 1 'timezone Asia/Kolkata'
+[       OK ] timezoneCase.alter_timezone_Test (2 ms)
+[ RUN      ] timezoneCase.insert_with_timezone_Test
+checkRows sql:select * from db1.stb where t1 == '2023-09-16 17:00:00+05:00' and t2 == '2023-09-16 21:00:00',rows:1
+checkRows sql:select * from db1.stb where t1 == '2024-11-21 16:46:15+08:00' and t2 == '2024-11-21 09:46:15+01:00',rows:1
+checkRows sql:select * from db1.ntb where ts == '2024-11-21 09:46:15.133+01:00' and c1 == '2024-11-21 10:46:15.133',rows:1
+checkRows sql:select * from db1.ctb1 where ts == '2024-11-21 09:46:15.133+01:00' and c1 == '2024-11-21 10:46:15.133',rows:1
+check_sql_result sql:select TO_ISO8601(ts) from db1.ctb1,result:2024-11-21T10:46:15.133+0200
+checkRows sql:select * from db1.ntb where ts == '2023-09-16 17:00:00' and c1 == '2023-09-16 17:00:00+08:00',rows:1
+checkRows sql:select * from db1.ntb where ts == '2023-09-16 08:00:00' and c1 == '2023-09-16 08:00:00-01:00',rows:1
+checkRows sql:select * from db1.ctb1 where ts == '2023-09-16 17:00:00' and c1 == '2023-09-16 17:00:00+08:00',rows:1
+checkRows sql:select * from db1.ctb1 where ts == '2023-09-16 08:00:00' and c1 == '2023-09-16 11:00:00+02:00',rows:1
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+', '2023-09-16 17:00:00+', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+a', '2023-09-16 17:00:00+a', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+8', '2023-09-16 17:00:00+8', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+832', '2023-09-16 17:00:00+832', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+8323', '2023-09-16 17:00:00+8323', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+:', '2023-09-16 17:00:00+:', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+8:', '2023-09-16 17:00:00+8:', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00++:', '2023-09-16 17:00:00++:', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+d:', '2023-09-16 17:00:00+d:', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+09:', '2023-09-16 17:00:00+09:', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+8f:', '2023-09-16 17:00:00+8f:', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+080:', '2023-09-16 17:00:00+080:', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+:30', '2023-09-16 17:00:00+:30', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+:3', '2023-09-16 17:00:00+:3', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+:093', '2023-09-16 17:00:00+:093', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+:-30', '2023-09-16 17:00:00+:-30', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00++:-30', '2023-09-16 17:00:00++:-30', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+8:8', '2023-09-16 17:00:00+8:8', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+8:2a', '2023-09-16 17:00:00+8:2a', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+8:08', '2023-09-16 17:00:00+8:08', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+8:038', '2023-09-16 17:00:00+8:038', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+08:8', '2023-09-16 17:00:00+08:8', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+09:3a', '2023-09-16 17:00:00+09:3a', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+09:abc', '2023-09-16 17:00:00+09:abc', 1)
+execQueryFail: insert into db1.ctb1 values('2023-09-16 17:00:00+09:001', '2023-09-16 17:00:00+09:001', 1)
+checkRows sql:select * from db1.stb where t1 == '2023-09-16 20:00:00' and t2 == '2023-09-17 03:00:00',rows:2
+checkRows sql:select * from db1.stb where t1 == 1732178775000 and t2 == 1732178775000,rows:1
+checkRows sql:select * from db1.ntb where ts == '2024-11-21 16:46:15.133' and c1 == '2024-11-21 16:46:15.133',rows:1
+checkRows sql:select * from db1.ctb1 where ts == '2023-09-17 01:00:00' and c1 == '2023-09-16 17:00:00',rows:1
+checkRows sql:select * from db1.ctb1 where ts == '2024-11-21 09:46:15.133+01:00' and c1 == '2024-11-21 10:46:15.133',rows:1
+checkRows sql:select * from db1.ctb1 where ts == '2024-11-21 09:46:15.133+01:00' and c1 == '2024-11-21 06:46:15.133',rows:1
+[       OK ] timezoneCase.insert_with_timezone_Test (384 ms)
+[ RUN      ] timezoneCase.func_timezone_Test
+check_sql_result sql:select timezone(),result:UTC+8 (UTC, -0800)
+check_sql_result sql:select timezone(),result:UTC-2 (UTC, +0200)
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-01 23:00:00', 1d, 0)),result:2024-01-01T02:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-01 01:00:00', 1d, 0)),result:2023-12-31T02:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-01 01:00:00+0300', 1d, 0)),result:2023-12-31T02:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-01 01:00:00-0300', 1d, 0)),result:2024-01-01T02:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-04 23:00:00', 1w, 0)),result:2024-01-04T02:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-04 01:00:00', 1w, 0)),result:2023-12-28T02:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-04 01:00:00+0300', 1w, 0)),result:2023-12-28T02:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-04 01:00:00-0300', 1w, 0)),result:2024-01-04T02:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-01 23:00:00', 1d, 1)),result:2024-01-01T00:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-01 01:00:00', 1d, 1)),result:2024-01-01T00:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-01 01:00:00+0500', 1d, 1)),result:2023-12-31T00:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-01 01:00:00-0300', 1d, 1)),result:2024-01-01T00:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-04 23:00:00', 1w, 1)),result:2024-01-04T00:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-04 01:00:00', 1w, 1)),result:2024-01-04T00:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-04 01:00:00+0500', 1w, 1)),result:2023-12-28T00:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE('2024-01-04 01:00:00-0300', 1w, 1)),result:2024-01-04T00:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE(1704142800000, 1d, 0)),result:2024-01-01T02:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(TIMETRUNCATE(ts, 1w, 1)) from db1.ntb,result:2023-12-28T00:00:00.000+0200
+check_sql_result_integer sql:select WEEKDAY('2024-01-01'),result:0
+check_sql_result_integer sql:select WEEKDAY('2024-01-01 03:00:00'),result:0
+check_sql_result_integer sql:select WEEKDAY('2024-01-01 23:00:00+0200'),result:0
+check_sql_result_integer sql:select WEEKDAY('2024-01-01 23:00:00-1100'),result:1
+check_sql_result_integer sql:select WEEKDAY(1704142800000),result:0
+check_sql_result_integer sql:select WEEKDAY(ts) from db1.ntb,result:1
+check_sql_result_integer sql:select DAYOFWEEK('2024-01-01'),result:2
+check_sql_result_integer sql:select DAYOFWEEK('2024-01-01 03:00:00'),result:2
+check_sql_result_integer sql:select DAYOFWEEK('2024-01-01 23:00:00+0200'),result:2
+check_sql_result_integer sql:select DAYOFWEEK('2024-01-01 23:00:00-1100'),result:3
+check_sql_result_integer sql:select DAYOFWEEK(1704142800000),result:2
+check_sql_result_integer sql:select DAYOFWEEK(ts) from db1.ntb,result:3
+check_sql_result_integer sql:select WEEK('2024-01-07'),result:1
+check_sql_result_integer sql:select WEEK('2024-01-07 02:00:00'),result:1
+check_sql_result_integer sql:select WEEK('2024-01-07 02:00:00+0200'),result:1
+check_sql_result_integer sql:select WEEK('2024-01-07 02:00:00+1100'),result:0
+check_sql_result_integer sql:select WEEK(1704142800000),result:0
+check_sql_result_integer sql:select WEEK(ts) from db1.ntb,result:0
+check_sql_result_integer sql:select WEEK('2024-01-07', 3),result:1
+check_sql_result_integer sql:select WEEK('2024-01-07 02:00:00', 3),result:1
+check_sql_result_integer sql:select WEEK('2024-01-07 02:00:00+0200', 3),result:1
+check_sql_result_integer sql:select WEEK('2024-01-01 02:00:00+1100', 3),result:52
+check_sql_result_integer sql:select WEEK(1704142800000, 3),result:1
+check_sql_result_integer sql:select WEEK(ts, 3) from db1.ntb,result:1
+check_sql_result_integer sql:select WEEKOFYEAR('2024-01-07'),result:1
+check_sql_result_integer sql:select WEEKOFYEAR('2024-01-07 02:00:00'),result:1
+check_sql_result_integer sql:select WEEKOFYEAR('2024-01-07 02:00:00+0200'),result:1
+check_sql_result_integer sql:select WEEKOFYEAR('2024-01-01 02:00:00+1100'),result:52
+check_sql_result_integer sql:select WEEKOFYEAR(1704142800000),result:1
+check_sql_result_integer sql:select WEEKOFYEAR(ts) from db1.ntb,result:1
+check_sql_result sql:select TO_ISO8601(ts) from db1.ntb,result:2024-01-01T23:00:00.000+0200
+check_sql_result sql:select TO_ISO8601(ts,'-08') from db1.ntb,result:2024-01-01T13:00:00.000-08
+check_sql_result sql:select TO_ISO8601(1),result:1970-01-01T02:00:00.001+0200
+check_sql_result sql:select TO_ISO8601(1,'+0800'),result:1970-01-01T08:00:00.001+0800
+check_sql_result_integer sql:select TO_UNIXTIMESTAMP(c1) from db1.ntb,result:1704121200000
+check_sql_result_integer sql:select TO_UNIXTIMESTAMP('2024-01-01T23:00:00.000+0200'),result:1704142800000
+check_sql_result_integer sql:select TO_UNIXTIMESTAMP('2024-01-01T13:00:00.000-08'),result:1704142800000
+check_sql_result_integer sql:select TO_UNIXTIMESTAMP('2024-01-01T23:00:00.001'),result:1704142800001
+check_sql_result_integer sql:select TO_TIMESTAMP(c1,'yyyy-mm-dd hh24:mi:ss') from db1.ntb,result:1704121200000
+check_sql_result_integer sql:select TO_TIMESTAMP('2024-01-01 23:00:00+02:00', 'yyyy-mm-dd hh24:mi:ss tzh'),result:1704142800000
+check_sql_result_integer sql:select TO_TIMESTAMP('2024-01-01T13:00:00-08', 'yyyy-mm-ddThh24:mi:ss tzh'),result:1704142800000
+check_sql_result_integer sql:select TO_TIMESTAMP('2024/01/01 23:00:00', 'yyyy/mm/dd hh24:mi:ss'),result:1704142800000
+check_sql_result sql:select TO_CHAR(ts,'yyyy-mm-dd hh24:mi:ss') from db1.ntb,result:2024-01-02 05:00:00
+check_sql_result sql:select TO_CHAR(cast(1704142800000 as timestamp), 'yyyy-mm-dd hh24:mi:ss tzh'),result:2024-01-01 23:00:00 +02
+check_sql_result sql:select TO_CHAR(cast(1704142800000 as timestamp), 'yyyy-mm-dd hh24:mi:ss'),result:2024-01-01 23:00:00
+check_sql_result_integer sql:select TIMEDIFF(c1, '2024-01-01T23:00:00.001+02') from db1.ntb,result:-21600001
+check_sql_result_integer sql:select TIMEDIFF(c1, '2024-01-01T23:00:00.001') from db1.ntb,result:-1
+check_sql_result_integer sql:select TIMEDIFF('2024-01-01T23:00:00.001', '2024-01-01T13:00:00.000-08'),result:1
+check_sql_result_integer sql:select CAST(c1 as timestamp) from db1.ntb,result:1704121200000
+check_sql_result_integer sql:select CAST('2024-01-01T23:00:00.000+02' as timestamp),result:1704142800000
+check_sql_result_integer sql:select CAST('2024-01-01T23:00:00.000' as timestamp),result:1704142800000
+checkRows sql:select a.ts,b.ts from db1.ntb a join db1.ntb1 b on timetruncate(a.ts, 1d) = timetruncate(b.ts, 1d),rows:1
+check_sql_result sql:select TO_ISO8601(CAST('2023-01-31T00:00:00.000-01' as timestamp) + 1n),result:2023-02-28T00:00:00.000-0100
+check_sql_result sql:select TO_ISO8601(CAST('2024-01-31T00:00:00.000-01' as timestamp) + 1n),result:2024-02-29T00:00:00.000-0100
+check_sql_result sql:select TO_ISO8601(CAST('2024-02-29T00:00:00.000-01' as timestamp) + 1y),result:2025-02-28T00:00:00.000-0100
+check_sql_result sql:select TO_ISO8601(CAST('2024-01-31T00:00:00.000-01' as timestamp) + 1y),result:2025-01-31T00:00:00.000-0100
+check_sql_result sql:select TO_ISO8601(CAST('2024-01-01T00:00:00.000+01' as timestamp) + 1n),result:2024-01-31T22:00:00.000-0100
+check_sql_result sql:select TO_ISO8601(CAST('2024-01-01T00:00:00.000+01' as timestamp) + 1y),result:2024-12-31T22:00:00.000-0100
+check_sql_result_integer sql:select case CAST('2024-01-01T00:00:00.000+01' as timestamp) when 1704063600000 then 1 end,result:1
+check_sql_result_integer sql:select case CAST('2024-01-01T00:00:00.000' as timestamp) when 1704070800000 then 1 end,result:1
+[       OK ] timezoneCase.func_timezone_Test (707 ms)
+[ RUN      ] timezoneCase.format_timezone_Test
+[       OK ] timezoneCase.format_timezone_Test (4 ms)
+[ RUN      ] timezoneCase.get_tz_Test
+[       OK ] timezoneCase.get_tz_Test (0 ms)
+[ RUN      ] timezoneCase.mktime_Test
+[       OK ] timezoneCase.mktime_Test (1 ms)
+[ RUN      ] timezoneCase.mktime_rz_Test
+[       OK ] timezoneCase.mktime_rz_Test (0 ms)
+[ RUN      ] timezoneCase.localtime_performance_Test
+localtime cost:126563215 ns, run 1000000 times
+localtime_rz cost:124693120 ns, run 1000000 times
+
+localtime cost:123085771 ns, run 1000000 times
+localtime_rz cost:125128221 ns, run 1000000 times
+
+localtime cost:123400702 ns, run 1000000 times
+localtime_rz cost:127870708 ns, run 1000000 times
+
+localtime cost:125713402 ns, run 1000000 times
+localtime_rz cost:124835065 ns, run 1000000 times
+
+localtime cost:123484189 ns, run 1000000 times
+localtime_rz cost:124520386 ns, run 1000000 times
+
+localtime cost:122655014 ns, run 1000000 times
+localtime_rz cost:125281296 ns, run 1000000 times
+
+localtime cost:122599242 ns, run 1000000 times
+localtime_rz cost:124245756 ns, run 1000000 times
+
+localtime cost:126380815 ns, run 1000000 times
+localtime_rz cost:125446216 ns, run 1000000 times
+
+localtime cost:122862168 ns, run 1000000 times
+localtime_rz cost:126333866 ns, run 1000000 times
+
+localtime cost:123107000 ns, run 1000000 times
+localtime_rz cost:125181048 ns, run 1000000 times
+
+average: localtime cost:123 ns, localtime_rz cost:124 ns
+[       OK ] timezoneCase.localtime_performance_Test (2493 ms)
+[----------] 9 tests from timezoneCase (4335 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 3 test suites ran. (10727 ms total)
+[  PASSED  ] 12 tests.
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from stmtCase
+[ RUN      ] stmtCase.stb_insert
+[       OK ] stmtCase.stb_insert (1757 ms)
+[ RUN      ] stmtCase.get_fields
+[       OK ] stmtCase.get_fields (350 ms)
+[ RUN      ] stmtCase.all_type
+[       OK ] stmtCase.all_type (340 ms)
+[ RUN      ] stmtCase.geometry
+[       OK ] stmtCase.geometry (366 ms)
+[ RUN      ] stmtCase.errcode
+[       OK ] stmtCase.errcode (340 ms)
+[ RUN      ] stmtCase.update
+case 1 : standard case
+case 2 : pk error
+case 3 : sql error
+case 4 : no where pk
+case 5 : tb not exist
+case 6 : wrong tbname
+case 7 : wrong sql
+case 8 : not ?
+case 9 : composite key
+case 10 : no where composite pk
+[       OK ] stmtCase.update (370 ms)
+[----------] 6 tests from stmtCase (3526 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (3526 ms total)
+[  PASSED  ] 6 tests.
+[==========] Running 28 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 28 tests from stmt2Case
+[ RUN      ] stmt2Case.timezone
+[       OK ] stmt2Case.timezone (459 ms)
+[ RUN      ] stmt2Case.stmt2_test_limit
+[       OK ] stmt2Case.stmt2_test_limit (322 ms)
+[ RUN      ] stmt2Case.insert_stb_get_fields_Test
+support case 
+case 1 : insert into stmt2_testdb_2.stb(t1,t2,ts,b,tbname) values(?,?,?,?,?)
+case 2 : insert into stmt2_testdb_2.stb(ts,b,tbname) values(?,?,?)
+case 3 : insert into stmt2_testdb_2.stb(tbname,ts,t2,b,t1) values(?,?,?,?,?)
+case 4 : insert into stmt2_testdb_2.stb(ts,tbname,b,t2,t1) values(?,?,?,?,?)
+case 5 : insert into 'stmt2_testdb_2'.'stb'(t1,t2,ts,b,tbname) values(?,?,?,?,?)
+case 6 : insert into stb(t1,t2,ts,b,tbname) values(?,?,?,?,?)
+case 7 : insert into stmt2_testdb_2.stb(ts,tbname) values(?,?)
+case 8 : insert into all_stb(tbname,tts,tv1,tv2,tv3,tv4,tv5,tv6,tv7,tv8,tv9,tv10,tv11,tv12,tv13,tv14,tv15,ts,v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11,v12,v13,v14,v15) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+case 9 : insert into stmt2_testdb_2.stb(t1,t2,ts,b,tbname) values(1,?,?,'abc',?)
+not support case 
+case 2 : insert into stmt2_testdb_2.stb(b,tbname) values(?,?)
+case 3 : insert into stmt2_testdb_2.stb(ts,b) values(?,?)
+case 4 : insert into stmt2_testdb_2.stb(tbname) values(?)
+case 5 : insert into stmt2_testdb_2.stb(?,?,?,?,?)
+case 6 : insert into stmt2_testdb_2.nstb(?,?,?,?,?)
+case 7 : insert into stmt2_testdb_2.stb(t1,t2,tbname) values(?,?,?)
+case 8 : insert into stmt2_testdb_2.stb(ts,b,tbname) values(?,?,?,?,?)
+case 9 : insert into stmt2_testdb_2.stb(t1,t2,ts,b,tbname) values(*,*,*,*,*)
+[       OK ] stmt2Case.insert_stb_get_fields_Test (441 ms)
+[ RUN      ] stmt2Case.insert_ctb_using_get_fields_Test
+support case 
+case 1 : INSERT INTO stmt2_testdb_3.t0(ts,b)using stmt2_testdb_3.stb (t1,t2) TAGS(?,?) VALUES(?,?)
+case 2 : INSERT INTO stmt2_testdb_3.? using stmt2_testdb_3.stb (t1,t2) TAGS(?,?) (ts,b)VALUES(?,?)
+case 3 : INSERT INTO stmt2_testdb_3.d1 using stmt2_testdb_3.stb (t1,t2)TAGS(?,?) (ts,b)VALUES(?,?)
+case 4 : INSERT INTO stmt2_testdb_3.? using stmt2_testdb_3.stb (t2,t1)TAGS(?,?) (b,ts)VALUES(?,?)
+case 5 : insert into stmt2_testdb_3.? using stmt2_testdb_3.stb (t2)tags(?) (ts)values(?)
+case 6 : insert into stmt2_testdb_3.? using stmt2_testdb_3.stb tags(?, ?) values(?,?)
+case 7 : insert into stmt2_testdb_3.t0 (ts)values(?)
+case 8 : INSERT INTO 'stmt2_testdb_3'.? using 'stmt2_testdb_3'.'stb' (t1,t2) TAGS(?,?)(ts,b)VALUES(?,?)
+case 9 : INSERT INTO ? using stb (t1,t2) TAGS(?,?) (ts,b)VALUES(?,?)
+case 11 : INSERT INTO ? using stb (t1,t2) TAGS(1,'abc') (ts,b)VALUES(?,?)
+case 10 : insert into ? using all_stb tags(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+case 12 : INSERT INTO ? using stb (t1,t2) TAGS(1,?) (ts,b)VALUES(?,'abc')
+case 13 : INSERT INTO ? using stb (t1,t2) TAGS(?,?) (ts,b)VALUES(15910606280001,?)
+case 13 : INSERT INTO ? using stb (t1,t2) TAGS(?,?) (ts,b)VALUES(15910606280001,'abc')
+not support case 
+case 1 : INSERT INTO stmt2_testdb_3.?(ts,b)using stmt2_testdb_3.nstb (t1,t2) TAGS(?,?) VALUES (?,?)
+case 2 : INSERT INTO stmt2_testdb_3.?(ts,b)using stmt2_testdb_3.nstb (t1,t2) TAGS(?,?) (n)VALUES (?)
+case 3 : INSERT INTO stmt2_testdb_3.?(ts,b)using stmt2_testdb_3.stb TAGS(?)VALUES (?,?)
+case 4 : INSERT INTO stmt2_testdb_3.d0 using stmt2_testdb_3.stb values(?,?)
+case 5 : insert into ! using stmt2_testdb_3.stb tags(?, ?) values(?,?)
+[       OK ] stmt2Case.insert_ctb_using_get_fields_Test (318 ms)
+[ RUN      ] stmt2Case.insert_ntb_get_fields_Test
+support case 
+case 1 : INSERT INTO stmt2_testdb_4.ntb VALUES(?,?,?,?)
+case 2 : INSERT INTO stmt2_testdb_4.ntb (ni,nb,nvc,nts)VALUES(?,?,?,?)
+case 3 : INSERT INTO stmt2_testdb_4.ntb (nts)VALUES(?)
+case 4 : insert into stmt2_testdb_4.all_ntb values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+not support case 
+case 1 : insert into ntb values(?,?,?,?)
+case 2 : insert into stmt2_testdb_4.? values(?,?)
+case 3 : insert into stmt2_testdb_4.ntb(nts,ni) values(?,?,?,?,?)
+[       OK ] stmt2Case.insert_ntb_get_fields_Test (412 ms)
+[ RUN      ] stmt2Case.select_get_fields_Test
+case 1 : select * from ntb where ts = ?
+case 2 : select * from ntb where ts = ? and b = ?
+case 3 : select * from ? where ts = ?
+[       OK ] stmt2Case.select_get_fields_Test (398 ms)
+[ RUN      ] stmt2Case.get_fields_error_Test
+case 1 : NULL param 
+[       OK ] stmt2Case.get_fields_error_Test (0 ms)
+[ RUN      ] stmt2Case.stmt2_init_prepare_Test
+[       OK ] stmt2Case.stmt2_init_prepare_Test (1 ms)
+[ RUN      ] stmt2Case.stmt2_stb_insert
+stmt2 [no-interlcace] : insert into `stmt2_testdb_1`.`stb` (tbname,ts,b,t1,t2) values(?,?,?,?,?)
+stmt2 [no-interlcace] : insert into `stmt2_testdb_1`.? using `stmt2_testdb_1`.`stb` tags(?,?) values(?,?)
+stmt2 [no-interlcace & aync exec] : insert into stmt2_testdb_1.stb (ts,b,tbname,t1,t2) values(?,?,?,?,?)
+stmt2 [no-interlcace & aync exec] : insert into stmt2_testdb_1.? using stmt2_testdb_1.stb (t1,t2)tags(?,?) (ts,b)values(?,?)
+stmt2 [no-interlcace & aync exec] : insert into `stmt2_testdb_1`.`stb` (tbname,ts,b,t1,t2) values(?,?,?,?,?)
+stmt2 [no-interlcace & no-db] : insert into stb (tbname,ts,b) values(?,?,?)
+stmt2 [no-interlcace & no-db] : insert into ? using stb (t1,t2)tags(?,?) (ts,b)values(?,?)
+stmt2 [no-interlcace & no-db] : insert into ? values(?,?)
+stmt2 [interlcace & preCreateTB] : insert into ? values(?,?)
+stmt2 [interlcace & preCreateTB] : insert into ? values(?,?)
+stmt2 [interlcace & no-preCreateTB] : insert into ? using stb (t1,t2)tags(?,?) (ts,b)values(?,?)
+stmt2 [interlcace & no-preCreateTB] : insert into stmt2_testdb_1.? using stb (t1,t2)tags(1,'abc') (ts,b)values(?,?)
+stmt2 [interlcace & no-preCreateTB] : insert into stmt2_testdb_1.stb (ts,b,tbname,t1,t2) values(?,?,?,?,?)
+stmt2 [no-interlcace & no-preCreateTB] : insert into ? using stb (t1,t2)tags(?,?) (ts,b)values(?,?)
+stmt2 [no-interlcace & no-preCreateTB] : insert into stmt2_testdb_1.stb (ts,b,tbname,t1,t2) values(?,?,?,?,?)
+[       OK ] stmt2Case.stmt2_stb_insert (4692 ms)
+[ RUN      ] stmt2Case.stmt2_insert_non_statndard
+stmt2 [less params] : INSERT INTO stmt2_testdb_6.? using stmt2_testdb_6.stb1 (int_tag)tags(1) (ts)  VALUES (?)
+stmt2 [less params] : INSERT INTO stmt2_testdb_6.stb1 (ts,int_tag,tbname)  VALUES (?,?,?)
+stmt2 [disorder params] : INSERT INTO stmt2_testdb_6.stb1 (binary_tag,int_col,tbname,ts,int_tag)  VALUES (?,?,?,?,?)
+stmt2 [PK error] : INSERT INTO stmt2_testdb_6.? using  stmt2_testdb_6.stb1 (int_tag)tags(1) (int_col,ts)VALUES (?,?)
+stmt2 [disorder pk ts] : INSERT INTO stmt2_testdb_6.? using  stmt2_testdb_6.stb2 (int_tag)tags(1) (ts,int_col)VALUES (?,?)
+stmt2 [get fields] : INSERT INTO ? VALUES (?,?)
+stmt2 [null sql] : 
+stmt2 [wrong syntax] : INSERT INTO stmt2_testdb_6.? using stmt2_testdb_6.stb1 (int_tag,binary_tag)tags(?,?) (ts,varbinary_col,binary_col,int_col_new)VALUES (?,?,?,?)
+[       OK ] stmt2Case.stmt2_insert_non_statndard (382 ms)
+[ RUN      ] stmt2Case.stmt2_insert_db
+[       OK ] stmt2Case.stmt2_insert_db (433 ms)
+[ RUN      ] stmt2Case.stmt2_insert_duplicate
+[       OK ] stmt2Case.stmt2_insert_duplicate (249 ms)
+[ RUN      ] stmt2Case.stmt2_query
+[       OK ] stmt2Case.stmt2_query (354 ms)
+[ RUN      ] stmt2Case.stmt2_ntb_insert
+[       OK ] stmt2Case.stmt2_ntb_insert (275 ms)
+[ RUN      ] stmt2Case.stmt2_status_Test
+[       OK ] stmt2Case.stmt2_status_Test (1 ms)
+[ RUN      ] stmt2Case.stmt2_nchar
+[       OK ] stmt2Case.stmt2_nchar (276 ms)
+[ RUN      ] stmt2Case.stmt2_blob
+[       OK ] stmt2Case.stmt2_blob (372 ms)
+[ RUN      ] stmt2Case.all_type
+[       OK ] stmt2Case.all_type (338 ms)
+[ RUN      ] stmt2Case.geometry
+  case 1 : ntb
+  case 2 : interlace = 1
+  case 3 : interlace = 0
+  case 4 : error format
+[       OK ] stmt2Case.geometry (299 ms)
+[ RUN      ] stmt2Case.prepare
+[       OK ] stmt2Case.prepare (343 ms)
+[ RUN      ] stmt2Case.prepare_fixedtags
+[       OK ] stmt2Case.prepare_fixedtags (337 ms)
+[ RUN      ] stmt2Case.mixed_bind
+[       OK ] stmt2Case.mixed_bind (224 ms)
+[ RUN      ] stmt2Case.errcode
+query failen  sql : CREATE DATABASE IF NOT EXISTS stmt2_testdb_14
+  errstr : Vnodes exhausted
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482694
+  0
+query failen  sql : use stmt2_testdb_14
+  errstr : Database not exist
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482744
+  0
+query failen  sql : CREATE STABLE stb (ts TIMESTAMP, b INT) TAGS (tt TIMESTAMP, tb INT)
+  errstr : Database not specified
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147473898
+  0
+/root/code/TDengine/source/client/test/stmt2Test.cpp:2851: Failure
+Expected equality of these values:
+  code
+    Which is: -2147473898
+  ((int32_t)((0x80000000 | ((0)<<16) | (0x2600))))
+    Which is: -2147473920
+[  FAILED  ] stmt2Case.errcode (5 ms)
+[ RUN      ] stmt2Case.usage_error
+query failen  sql : CREATE DATABASE IF NOT EXISTS stmt2_testdb_17
+  errstr : Vnodes exhausted
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482694
+  0
+query failen  sql : use stmt2_testdb_17
+  errstr : Database not exist
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482744
+  0
+query failen  sql : CREATE TABLE stmt2_testdb_17.ntb(nts timestamp, nb binary(10),nvc varchar(16),ni int);
+  errstr : Database not exist
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482744
+  0
+/root/code/TDengine/source/client/test/stmt2Test.cpp:2923: Failure
+Expected equality of these values:
+  code
+    Which is: -2147473898
+  ((int32_t)((0x80000000 | ((0)<<16) | (0x2600))))
+    Which is: -2147473920
+[  FAILED  ] stmt2Case.usage_error (4 ms)
+[ RUN      ] stmt2Case.rowformat_bind
+query failen  sql : create database IF NOT EXISTS stmt2_testdb_16
+  errstr : Vnodes exhausted
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482694
+  0
+query failen  sql : create stable stmt2_testdb_16.stb(ts timestamp, c1 int, c2 bigint, c3 float, c4 double, c5 binary(8), c6 smallint, c7 tinyint, c8 bool, c9 nchar(8), c10 geometry(256))TAGS(tts timestamp, t1 int, t2 bigint, t3 float, t4 double, t5 binary(8), t6 smallint, t7 tinyint, t8 bool, t9 nchar(8), t10 geometry(256))
+  errstr : Database not exist
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482744
+  0
+[STMT2 FAILED]
+  sql : insert into stmt2_testdb_16.? using stb tags(?,?,?,?,?,?,?,?,?,?,?)values (?,?,?,?,?,?,?,?,?,?,?)
+  stats : STMT_SETTBNAME
+  errcode : 80000388
+  errstr : Database not exist
+  file : /root/code/TDengine/source/client/test/stmt2Test.cpp
+  line : 3311
+/root/code/TDengine/source/client/test/stmt2Test.cpp:56: Failure
+Expected equality of these values:
+  code
+    Which is: -2147482744
+  0
+[STMT2 FAILED]
+  sql : insert into stmt2_testdb_16.? using stb tags(?,?,?,?,?,?,?,?,?,?,?)values (?,?,?,?,?,?,?,?,?,?,?)
+  stats : STMT_SETTBNAME
+  errcode : 80000388
+  errstr : Database not exist
+  file : /root/code/TDengine/source/client/test/stmt2Test.cpp
+  line : 3315
+/root/code/TDengine/source/client/test/stmt2Test.cpp:56: Failure
+Expected equality of these values:
+  code
+    Which is: -2147482744
+  0
+/root/code/TDengine/source/client/test/stmt2Test.cpp:3316: Failure
+Expected equality of these values:
+  affected_rows
+    Which is: 0
+  1
+[  FAILED  ] stmt2Case.rowformat_bind (3 ms)
+[ RUN      ] stmt2Case.exec_retry
+query failen  sql : create database stmt2_testdb_21
+  errstr : Vnodes exhausted
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482694
+  0
+query failen  sql : create stable stmt2_testdb_21.stb (ts timestamp, b binary(10)) tags(t1 int, t2 binary(10))
+  errstr : Database not exist
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482744
+  0
+query failen  sql : insert into stmt2_testdb_21.tb1 using stmt2_testdb_21.stb tags(1, 'after') values(1591060628000, 'abcde')
+  errstr : Database not exist
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482744
+  0
+query failen  sql : use stmt2_testdb_21
+  errstr : Database not exist
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482744
+  0
+[STMT2 FAILED]
+  sql : insert into stmt2_testdb_21.stb (tbname,ts,b)values(?,?,?)
+  stats : STMT_SETTBNAME
+  errcode : 80000388
+  errstr : Database not exist
+  file : /root/code/TDengine/source/client/test/stmt2Test.cpp
+  line : 3376
+/root/code/TDengine/source/client/test/stmt2Test.cpp:56: Failure
+Expected equality of these values:
+  code
+    Which is: -2147482744
+  0
+query failen  sql : drop table if exists stmt2_testdb_21.tb1
+  errstr : Database not exist
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482744
+  0
+[STMT2 FAILED]
+  sql : insert into stmt2_testdb_21.stb (tbname,ts,b)values(?,?,?)
+  stats : STMT_SETTBNAME
+  errcode : 80000388
+  errstr : success
+  file : /root/code/TDengine/source/client/test/stmt2Test.cpp
+  line : 3381
+/root/code/TDengine/source/client/test/stmt2Test.cpp:56: Failure
+Expected equality of these values:
+  code
+    Which is: -2147482744
+  0
+[  FAILED  ] stmt2Case.exec_retry (7 ms)
+[ RUN      ] stmt2Case.core
+stmt2Test: select COUNT(1) from (select LAST(operate_time) ...) with params
+query failen  sql : create database ivs
+  errstr : Vnodes exhausted
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482694
+  0
+query failen  sql : use ivs
+  errstr : Database not exist
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482744
+  0
+query failen  sql : create table alarm_operate_info (operate_time timestamp, alarm_id int, operator_id int, operator_name binary(32), operator_info binary(64), operator_status int, device_id int)
+  errstr : Database not specified
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147473898
+  0
+query failen  sql : insert into alarm_operate_info values(1591060628000, 1, 100, 'å¼ ä¸‰', 'info1', 0, 10),(1591060629000, 1, 101, 'æŽå››', 'info2', 1, 10),(1591060630000, 2, 102, 'çŽ‹äº”', 'info3', 0, 11)
+  errstr : db is not specified
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147483136
+  0
+[STMT2 FAILED]
+  sql : select COUNT(1) from ( select LAST(operate_time) as operate_time, alarm_id, operator_id, operator_name, operator_info, operator_status, device_id from ivs.alarm_operate_info WHERE operate_time >= ? and operate_time <= ? PARTITION BY alarm_id ORDER BY operate_time desc)
+  stats : STMT_BIND
+  errcode : 80000388
+  errstr : Database not exist
+  file : /root/code/TDengine/source/client/test/stmt2Test.cpp
+  line : 3461
+/root/code/TDengine/source/client/test/stmt2Test.cpp:56: Failure
+Expected equality of these values:
+  code
+    Which is: -2147482744
+  0
+[STMT2 FAILED]
+  sql : select COUNT(1) from ( select LAST(operate_time) as operate_time, alarm_id, operator_id, operator_name, operator_info, operator_status, device_id from ivs.alarm_operate_info WHERE operate_time >= ? and operate_time <= ? PARTITION BY alarm_id ORDER BY operate_time desc)
+  stats : STMT_BIND
+  errcode : 80000388
+  errstr : Database not exist
+  file : /root/code/TDengine/source/client/test/stmt2Test.cpp
+  line : 3464
+/root/code/TDengine/source/client/test/stmt2Test.cpp:56: Failure
+Expected equality of these values:
+  code
+    Which is: -2147482744
+  0
+[STMT2 FAILED]
+  sql : select COUNT(1) from ( select LAST(operate_time) as operate_time, alarm_id, operator_id, operator_name, operator_info, operator_status, device_id from ivs.alarm_operate_info WHERE operate_time >= ? and operate_time <= ? PARTITION BY alarm_id ORDER BY operate_time desc)
+  stats : STMT_BIND
+  errcode : 80000388
+  errstr : Database not exist
+  file : /root/code/TDengine/source/client/test/stmt2Test.cpp
+  line : 3467
+/root/code/TDengine/source/client/test/stmt2Test.cpp:56: Failure
+Expected equality of these values:
+  code
+    Which is: -2147482744
+  0
+[STMT2 FAILED]
+  sql : select COUNT(1) from ( select LAST(operate_time) as operate_time, alarm_id, operator_id, operator_name, operator_info, operator_status, device_id from ivs.alarm_operate_info WHERE operate_time >= ? and operate_time <= ? PARTITION BY alarm_id ORDER BY operate_time desc)
+  stats : STMT_BIND
+  errcode : 80000388
+  errstr : Database not exist
+  file : /root/code/TDengine/source/client/test/stmt2Test.cpp
+  line : 3470
+/root/code/TDengine/source/client/test/stmt2Test.cpp:56: Failure
+Expected equality of these values:
+  code
+    Which is: -2147482744
+  0
+[  FAILED  ] stmt2Case.core (10 ms)
+[ RUN      ] stmt2Case.tbname
+query failen  sql : create database stmt2_testdb_22
+  errstr : Vnodes exhausted
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482694
+  0
+query failen  sql : use stmt2_testdb_22
+  errstr : Database not exist
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482744
+  0
+query failen  sql : create table stmt2_testdb_22.stb (ts timestamp, b binary(10)) tags(t1 int, t2 binary(10))
+  errstr : Database not exist
+/root/code/TDengine/source/client/test/stmt2Test.cpp:138: Failure
+Expected equality of these values:
+  taos_errno(result)
+    Which is: -2147482744
+  0
+[STMT2 FAILED]
+  sql : insert into stmt2_testdb_22.stb (tbname,ts,b,t1,t2)values(?,?,?,?,?)
+  stats : STMT_FETCH_FIELDS
+  errcode : 80000388
+  errstr : Database not exist
+  file : /root/code/TDengine/source/client/test/stmt2Test.cpp
+  line : 3500
+/root/code/TDengine/source/client/test/stmt2Test.cpp:56: Failure
+Expected equality of these values:
+  code
+    Which is: -2147482744
+  0
+/root/code/TDengine/source/client/test/stmt2Test.cpp:3501: Failure
+Expected equality of these values:
+  fieldNum
+    Which is: 0
+  5
+[  FAILED  ] stmt2Case.tbname (7 ms)
+[----------] 28 tests from stmt2Case (10976 ms total)
+
+[----------] Global test environment tear-down
+[==========] 28 tests from 1 test suite ran. (10976 ms total)
+[  PASSED  ] 22 tests.
+[  FAILED  ] 6 tests, listed below:
+[  FAILED  ] stmt2Case.errcode
+[  FAILED  ] stmt2Case.usage_error
+[  FAILED  ] stmt2Case.rowformat_bind
+[  FAILED  ] stmt2Case.exec_retry
+[  FAILED  ] stmt2Case.core
+[  FAILED  ] stmt2Case.tbname
+
+ 6 FAILED TESTS

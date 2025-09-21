@@ -1,0 +1,44 @@
+commit 854eaafbce778438fde2616107d0f2012f57a9f4
+Author: root <1781937775@qq.com>
+Date:   Sat Sep 20 01:42:14 2025 +0000
+
+    debug_built_v1
+
+diff --git a/cmake/external.cmake b/cmake/external.cmake
+index 2b3e51e076..9f5fd0f1fb 100644
+--- a/cmake/external.cmake
++++ b/cmake/external.cmake
+ # pthread
+ if(${BUILD_PTHREAD})        # {
+     if(${TD_WINDOWS})
+@@ -369,8 +393,8 @@ if(${BUILD_TEST})           # {
+     endif()
+     INIT_EXT(ext_gtest
+         INC_DIR          include
+-        LIB              lib/${ext_gtest_main}
+-                         lib/${ext_gtest_static}
++        LIB              lib64/${ext_gtest_main}
++                         lib64/${ext_gtest_static}
+     )
+     # GIT_REPOSITORY https://github.com/taosdata-contrib/googletest.git
+     # GIT_TAG release-1.11.0
+@@ -520,6 +544,10 @@ INIT_EXT(ext_xz
+     # debugging github working flow
+     # CHK_NAME         LZMA
+ )
++
++message(STATUS "ext_xz install directory (config phase): ${_ins}")
++
++
+ # GIT_REPOSITORY https://github.com/xz-mirror/xz.git
+ # GIT_TAG v5.4.4
+ get_from_local_repo_if_exists("https://github.com/tukaani-project/xz.git")
+@@ -1099,7 +1127,7 @@ if (${BUILD_CONTRIB} OR NOT ${TD_LINUX})         # {
+     endif()
+     INIT_EXT(ext_rocksdb
+         INC_DIR          include
+-        LIB              lib/${ext_rocksdb_static}
++        LIB              lib64/${ext_rocksdb_static}
+     )
+     # URL https://github.com/facebook/rocksdb/archive/refs/tags/v8.1.1.tar.gz
+     # URL_HASH MD5=3b4c97ee45df9c8a5517308d31ab008b

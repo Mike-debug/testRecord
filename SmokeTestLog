@@ -1,0 +1,56 @@
+===== Changing Directory to ../../tests/system-test/ =====
+Successfully changed directory to ../../tests/system-test/
+===== Executing Command: python3 ./test.py -f 2-query/join.py =====
+FAILED: python3 ./test.py -f 2-query/join.py
+
+===== Executing Command: python3 ./test.py -f 6-cluster/5dnode3mnodeStop.py -N 5 -M 3 =====
+FAILED: python3 ./test.py -f 6-cluster/5dnode3mnodeStop.py -N 5 -M 3
+
+===== Executing Command: python3 ./test.py -f 1-insert/insert_column_value.py =====
+FAILED: python3 ./test.py -f 1-insert/insert_column_value.py
+
+===== Executing Command: python3 ./test.py -f 2-query/primary_ts_base_5.py =====
+FAILED: python3 ./test.py -f 2-query/primary_ts_base_5.py
+
+===== Executing Command: python3 ./test.py -f 2-query/case_when.py =====
+FAILED: python3 ./test.py -f 2-query/case_when.py
+
+===== Executing Command: python3 ./test.py -f 2-query/partition_limit_interval.py =====
+FAILED: python3 ./test.py -f 2-query/partition_limit_interval.py
+
+===== Executing Command: python3 ./test.py -f 2-query/fill.py =====
+FAILED: python3 ./test.py -f 2-query/fill.py
+
+===== Executing Command: python3 ./test.py -f 7-tmq/basic5.py =====
+FAILED: python3 ./test.py -f 7-tmq/basic5.py
+
+===== Executing Command: python3 ./test.py -f 8-stream/stream_basic.py =====
+FAILED: python3 ./test.py -f 8-stream/stream_basic.py
+
+===== Test Completed =====
+Total Commands Executed: 9
+Successful: 0
+Failed: 9
+
+The following commands failed:
+python3 ./test.py -f 6-cluster/5dnode3mnodeStop.py -N 5 -M 3
+python3 ./test.py -f 2-query/join.py
+python3 ./test.py -f 1-insert/insert_column_value.py
+python3 ./test.py -f 6-cluster/5dnode3mnodeStop.py -N 5 -M 3
+python3 ./test.py -f 2-query/primary_ts_base_5.py
+python3 ./test.py -f 1-insert/insert_column_value.py
+python3 ./test.py -f 2-query/case_when.py
+python3 ./test.py -f 2-query/partition_limit_interval.py
+python3 ./test.py -f 2-query/fill.py
+python3 ./test.py -f 2-query/primary_ts_base_5.py
+python3 ./test.py -f 2-query/case_when.py
+python3 ./test.py -f 7-tmq/basic5.py
+python3 ./test.py -f 2-query/partition_limit_interval.py
+python3 ./test.py -f 8-stream/stream_basic.py
+python3 ./test.py -f 2-query/fill.py
+python3 ./test.py -f 7-tmq/basic5.py
+python3 ./test.py -f 8-stream/stream_basic.py
+Detailed logs can be found in: /root/code/TDengine/tests/system-test/test_server.log
+Successful commands can be found in: /root/code/TDengine/tests/system-test/success.txt
+Failed commands can be found in: /root/code/TDengine/tests/system-test/failed.txt
+Test report can be found in: /root/code/TDengine/tests/system-test/report.txt
