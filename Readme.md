@@ -7,7 +7,7 @@
 ## 1. TDengine 不支持 Rocky Linux 8
 
 目前，TDengine 官方并不支持 Rocky Linux 8。可以参考以下链接了解相关问题：
-
+* [TDengine TSDB 服务端支持的平台列表](https://docs.taosdata.com/reference/supported/)
 * [GitHub Issue #31177](https://github.com/taosdata/TDengine/issues/31177)
 * [TaosData 论坛问题讨论](https://ask.taosdata.com/t/topic/786/1)
 
